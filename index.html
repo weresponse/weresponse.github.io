@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en"> 
     <head>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>weResponse Philippines</title>
+		<link rel="icon" type="image/x-icon" href="images/WeResponseIcon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -14,10 +16,11 @@
     </head>
 <body>
 
+	
     <!--Navigation bar--> 
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" height="50px" width="100px" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" height="50vh" width="70vw" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,10 +42,30 @@
                         <a class="nav-link nav-login" href="#">Login</a>
                     </li>
                 </ul>
+				
             </div>
         </div>
-    </nav>    
+    </nav> 
+	
+<div id="page1">	
+	<div class="image"><img src="images/disbg.jpg">
+	<div class="intro"  data-aos="zoom-out" data-aos-duration="3000" data-aos-easing="ease-in-out">
+		<h1>Welcome in WeResponse</h1>
+	<p>Your safety is everything to us</p>
+		<a href="#page2" class="button2">Read More</a>
+		</div>
+	
+	</div>
+	
 
-
+	</div>
+	<div id="page2">		
+		<div class="des">
+		<h1>What is WeResponse?</h1></div>
+	</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
