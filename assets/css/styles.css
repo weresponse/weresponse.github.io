@@ -44,19 +44,19 @@ html, body {
 .nav-link {
     font-size: 30px;
 }
-.nav-login {
-    background-color: #b54f1f;
+.active {
+    padding: 2px !important;
+    background-color: #fff;
     border-radius: 10px;
-    color: #fff !important;
     font-size: 30px;	
 }
-
+.active:hover {
+	color: #fff;
+	background-color: #ffa500 !important;
+	transition: .2s;
+}
 nav ul li a {
 	color: #000 !important;
-}
-.nav-login:hover {
-    background-color: #ffa500;
-    border: 2px solid #b54f1f;
 }
 nav ul li a:hover {
     color: #fff !important;
