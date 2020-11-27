@@ -6,11 +6,11 @@
 }
 @font-face{
 	font-family: "Caviar Dreams";
-	src: url(../../fonts/CaviarDreams.ttf);
+	src: url(CaviarDreams.ttf);
 }
 html, body {
     height: 100%;
-  
+ 
     font-family: 'BebasNeue-Regular','Poppins', sans-serif;
  
 	
@@ -30,6 +30,9 @@ html, body {
 	scroll-behavior: smooth;
 }
 .navbar {
+	width: 100%;
+	z-index: 10;
+	position: fixed;
     padding: .1rem;
     background-color: #ffa500;
 }
@@ -62,6 +65,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #fff !important;
     background-color: #b54f1f;
+	transition: .2s;
 }
 .image{
 	width: 100%;
@@ -87,7 +91,7 @@ nav ul li a:hover {
 	margin-top: 50px;
 	position: relative;
 	padding: 15px 30px;
-	color: #def8ff;
+	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 20;
@@ -98,9 +102,9 @@ nav ul li a:hover {
 	
 }
 .button2:hover{
-	background:  #def8ff;
-	color: #00021a;
-	box-shadow: 0 0 10px #def8ff,0 0 40px #def8ff,0 0 80px #def8ff;
+	background:  #ffa500;
+	color: white;
+	box-shadow: 0 0 10px #ffa500,0 0 40px #ffa500,0 0 80px #ffa500;
 	transition-delay: .1s;
 }
 .intro a{
