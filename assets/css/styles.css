@@ -172,3 +172,17 @@ color: #3b94d1;
 	height: 100vh;
 	scroll-behavior: smooth;
 }
+
+footer {
+    background-color: #161616;
+    color: #fff;
+}
+
+.font-con-color {
+    color: hsl(113, 97%, 46%);
+    margin-top: 20px;
+}
+
+.light {
+    background-color: #fff;
+}
