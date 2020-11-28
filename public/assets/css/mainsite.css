@@ -42,7 +42,7 @@ font-size: 30px;
 	font-weight: 900;
 }
 
-.logout-btn {
+.home-btn {
     padding: 5px;
     background: #0c056d;
     text-decoration: none;
@@ -55,7 +55,7 @@ font-size: 30px;
     color: #fff;
 }
 
-.logout-btn:hover {
+.home-btn:hover {
   color: #6639a6 !important;
     background-color: #f4eeff;
 	transition: .2s;
