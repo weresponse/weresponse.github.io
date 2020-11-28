@@ -27,8 +27,8 @@ font-size: 30px;
 .display-user {
     font-size: 20px;
 }
-.navbar-brand img{
-	  margin-top: -15px;
+.navbar-brand {
+	  margin-top: -10px;
 	  margin-right: 80px;
 }
 
