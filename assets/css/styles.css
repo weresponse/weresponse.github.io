@@ -32,13 +32,18 @@ html, body {
 
 /*---Navbar---*/
 .navbar {
+color:  #f4eeff;
 	width: 100%;
 	z-index: 10;
 	position: fixed;
     padding: .1rem;
-    background-color: #ffa500;
+    background-color: #140025;
+}
+.navbar-toggler {
+    color: #fff !important;
 }
 .navbar-nav li {
+	
     padding-right: 20px;
 }
 .nav-link {
@@ -46,21 +51,22 @@ html, body {
 }
 .active {
     padding: 2px !important;
-    background-color: #fff;
+    background-color: #0c056d;
     border-radius: 10px;
     font-size: 30px;	
 }
 .active:hover {
-	color: #fff;
-	background-color: #ffa500 !important;
+	color: #f4eeff;
+	background-color: #08053b !important;
 	transition: .2s;
 }
 nav ul li a {
-	color: #000 !important;
+	
+	color: #f4eeff !important;
 }
 nav ul li a:hover {
-    color: #fff !important;
-    background-color: #b54f1f;
+    color: #6639a6 !important;
+    background-color: #f4eeff;
 	transition: .2s;
 }
 
@@ -83,11 +89,12 @@ nav ul li a:hover {
 }
 
 .button2 {
+	
 	scroll-behavior: smooth;
-	margin-top: 50px;
+	margin-top: 20px;
 	position: relative;
 	padding: 15px 30px;
-	color: white;
+	color: #3b94d1;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 20;
@@ -95,16 +102,11 @@ nav ul li a:hover {
 	transition: 0.2s;
 }
 
-.button2:hover {
-	background:  #def8ff;
-	color: #00021a;
-	box-shadow: 0 0 10px #def8ff,0 0 40px #def8ff,0 0 80px #def8ff;
-}
 
 .button2:hover{
-	background: #ffa500;
-	color: #fff;
-	box-shadow: 0 0 10px #ffa500,0 0 40px #ffa500,0 0 80px #ffa500;
+	background: #f4eeff;
+	color: #08053b;
+	box-shadow: 0 0 10px #f4eeff,0 0 40px #f4eeff,0 0 80px #f4eeff;
 	transition-delay: .1s;
 }
 .intro a {
@@ -115,7 +117,7 @@ scroll-behavior: smooth;
 	letter-spacing: 5px;
 	font-size: 20px;
 	margin: 0 10px;
-color: #ffa500;
+color: #3b94d1;
 }
 
 #page1 {
@@ -146,11 +148,11 @@ color: #ffa500;
 	padding:0;
 	font-size: 3.5em;
 	text-transform: uppercase;
-	 color: #ffa500;
+	 color: #f4eeff;
 }
 .intro p{
 	line-height: 2em;
-	color: #fff;
+	color: #f4eeff;
 	letter-spacing: 10px;
 	font-family: 'Caviar Dreams', Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }

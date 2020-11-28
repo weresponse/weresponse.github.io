@@ -1,33 +1,49 @@
+@font-face{
+	font-family: "BebasNeue-Regular";
+	src: url(../../fonts/BebasNeue-Regular.ttf);	
+}
 body {
     margin: 0;
     padding: 0;
 }
-
+a{
+	font-family: "BebasNeue-Regular";
+font-size: 30px;
+}
 .head {
+
 	position: fixed;
-	background-color: #000;
+	background-color: #08053b;
 	padding: 20px;
 	width: 100%;
 	height: 30px;
 }
 
+.navbar-brand img{
+	  margin-top: -25px;
+	  margin-right: 80px;
+}
+
 .left-area h3 {
+
+	font-family: "BebasNeue-Regular";
 	color: #fff;
 	margin: 0;
 	text-transform: uppercase;
-	font-size: 28px;
+	font-size: 50px;
 	font-weight: 900;
 }
 
 .logout-btn {
+
     padding: 5px;
     background: #19b3d3;
     text-decoration: none;
     float: right;
-    margin-top: -30px;
+    margin-top: -70px;
     margin-right: 40px;
     border-radius: 2px;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 600;
     color: #fff;
 }
@@ -37,7 +53,8 @@ body {
 }
 
 .sidebar {
-    background-color: #2f323a;
+	background-image: linear-gradient(#140025 50%,#4d008f);
+   /* background-color: #d18700;*/
     margin-top: 70px;
     padding-top: 30px;
     position: fixed;
