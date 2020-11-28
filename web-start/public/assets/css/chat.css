@@ -58,6 +58,9 @@ main, #messages-card {
   padding-top: 0;
   padding-bottom: 0;
 }
+.mdl-layout__content {
+  background-image: linear-gradient(#020023 50%,#08008a) !important;
+}
 #messages {
   overflow-y: auto;
   margin-bottom: 10px;
