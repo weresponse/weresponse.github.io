@@ -9,7 +9,8 @@
 body {
     margin: 0;
     padding: 0;
-	background-image: linear-gradient(#020023 50%,#08008a );
+    background-image: linear-gradient(#020023 50%,#08008a);
+    scroll-behavior: smooth;
 }
 a{
 	font-family: "BebasNeue-Regular";
@@ -144,20 +145,12 @@ label #sidebar-btn:hover {
 
 .content {
     margin-left: 250px;
-    background-image: url('images/brand-logo.png');
-    background-position: center;
-    background-size: cover;
     height: 100vh;
     transition: 0.5s;
 }
 
 #check:checked ~ .content {
     margin-left: 60px;
-}
-
-.dashboard {
-    transform: translateY(100px);
-    transition: 0.5s;
 }
 
 .content-design { 
@@ -179,4 +172,40 @@ label #sidebar-btn:hover {
 }
 .content p{
 	font-family: "Helvetica45Light_22437", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.content-layout1 {
+    transform: translateY(130px);
+    transition: 0.5s;
+}
+.content-layout2 {
+    margin-top: 600px;
+    transition: 0.5s;
+}
+.content-layout3 {
+    margin-top: 300px;
+    transition: 0.5s;
+}
+.content-layout4 {
+    margin-top: 400px;
+    transition: 0.5s;
+}
+.content-layout5 {
+    margin-top: 700px;
+    transition: 0.5s;
+}
+.faqs {
+	margin-top: 100px;
+	scroll-behavior: smooth;
+}
+.redcross {
+}
+.pnp {
+
+}
+.bfp {
+
+}
+.pcg {
+
 }

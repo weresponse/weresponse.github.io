@@ -180,7 +180,7 @@ color: #3b94d1;
 	width: 100%;
 	height: 100vh;
 	scroll-behavior: smooth;
-		overflow-y: hidden;
+	overflow-y: hidden;
 }
 .des{
 		overflow-y: hidden;
@@ -203,7 +203,7 @@ color: #3b94d1;
 	font-family: "Helvetica45Light_22437", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 .des img{
-		overflow-y: hidden;
+	overflow-y: hidden;
 	opacity: .2;
 	position: absolute;
 	top: 50%;
