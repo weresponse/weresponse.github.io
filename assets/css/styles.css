@@ -196,8 +196,7 @@ color: #3b94d1;
 	text-align: center;	
 	display: block;
 	max-width: 1000px;
-	margin: 0 auto 1em;
-	
+	margin: 0 auto 1em ; 
 	position: relative;
 	border-right: .2em;
 	font-family: "Helvetica45Light_22437", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
