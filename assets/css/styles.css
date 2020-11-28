@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
+@font-face{
+	font-family: "Helvetica45Light_22437";
+	src: url(../../fonts/Helvetica45Light_22437.ttf)
+}
 @font-face{
 	font-family: "BebasNeue-Regular";
 	src: url(../../fonts/BebasNeue-Regular.ttf);	
@@ -195,8 +198,7 @@ color: #3b94d1;
 	height: 200px;
 	position: relative;
 	border-right: .2em;
-	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif"
-	
+	font-family: "Helvetica45Light_22437", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 .des img{
 		overflow-y: hidden;
@@ -213,7 +215,7 @@ footer {
 	
 }
 footer p{
-	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	font-family: "Helvetica45Light_22437", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 
 .font-con-color {
