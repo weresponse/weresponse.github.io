@@ -109,11 +109,13 @@ font-size: 30px;
 label #sidebar-btn {
     z-index: 1;
     color: #fff;
+    border: 1px solid #fff;
+    padding: 4px;
     position: fixed;
     cursor: pointer;
-    left: 270px;
+    left: 220px;
     font-size: 20px; 
-    margin: 5px 0;
+    margin: 20px 0;
     transition: 0.5s;
     transition-property: color;
 }
