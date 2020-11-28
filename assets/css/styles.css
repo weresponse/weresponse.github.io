@@ -30,6 +30,7 @@ html, body {
 
 }
 *{
+	
 	scroll-behavior: smooth;
 }
 
@@ -133,6 +134,7 @@ color: #3b94d1;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
 }
 #page1 div {
 	position: relative;
