@@ -6,7 +6,7 @@
 }
 @font-face{
 	font-family: "Caviar Dreams";
-	src: url(CaviarDreams.ttf);
+	src:url(../../fonts/CaviarDreams.ttf);
 }
 html, body {
     height: 100%;
