@@ -1,15 +1,15 @@
 @font-face{
 	font-family: "BebasNeue-Regular";
-	src: url(../../fonts/BebasNeue-Regular.ttf);	
+	src: url(../../../fonts/BebasNeue-Regular.ttf);
 }
 @font-face{
 	font-family: "Helvetica45Light_22437";
-	src: url(../../fonts/Helvetica45Light_22437.ttf)
+	src: url(../../../fonts/Helvetica45Light_22437.ttf);
 }
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#020023 50%,#08008a);
+    background-image: linear-gradient(#020023 50%,#08008a, #020023);
     scroll-behavior: smooth;
 }
 a{

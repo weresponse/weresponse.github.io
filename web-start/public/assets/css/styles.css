@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 @font-face{
-	font-family: "Helvetica45Light_22437";
-	src: url(../../fonts/Helvetica45Light_22437.ttf)
+	font-family: "BebasNeue-Regular";
+	src: url(../../../fonts/BebasNeue-Regular.ttf);
 }
 @font-face{
-	font-family: "BebasNeue-Regular";
-	src: url(../../fonts/BebasNeue-Regular.ttf);	
+	font-family: "Helvetica45Light_22437";
+	src: url(../../../fonts/Helvetica45Light_22437.ttf);
 }
 @font-face{
 	font-family: "Caviar Dreams";
-	src:url(../../fonts/CaviarDreams.ttf);
+	src:url(../../../fonts/CaviarDreams.ttf);
 }
 html, body {
     height: 100%;
