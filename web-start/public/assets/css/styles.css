@@ -163,6 +163,7 @@ color: #3b94d1;
 	font-family: 'Caviar Dreams', Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 #page2{
+		padding-top:10px;
 	text-align: center;	
 	background-size: cover;
 	background-position: center;
@@ -176,6 +177,7 @@ color: #3b94d1;
 		overflow-y: hidden;
 }
 #page2 div{
+	margin-top: 100px;
 	position: relative;
 	width: 100%;
 	height: 100vh;
