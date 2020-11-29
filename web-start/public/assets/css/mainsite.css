@@ -232,18 +232,18 @@ label #sidebar-btn:hover {
 	margin-top: 100px;
 	scroll-behavior: smooth;
 }
-.redcross {
+.redcross h2{
 	margin-top: 100px;
 }
-.pnp {
-	margin-top: 100px;
-
-}
-.bfp {
+.pnp h2{
 	margin-top: 100px;
 
 }
-.pcg {
+.bfp h2{
+	margin-top: 100px;
+
+}
+.pcg h2{
 	margin-top: 100px;
 
 }
