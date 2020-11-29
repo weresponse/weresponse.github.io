@@ -6,7 +6,11 @@
 	font-family: "Helvetica45Light_22437";
 	src: url(../../../fonts/Helvetica45Light_22437.ttf);
 }
+*{
+	scroll-behavior: smooth;
+}
 body {
+
     margin: 0;
     padding: 0;
     background-image: linear-gradient(#020023 50%,#08008a, #020023);
