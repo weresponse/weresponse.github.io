@@ -177,7 +177,7 @@ color: #3b94d1;
 		overflow-y: hidden;
 }
 #page2 div{
-	margin-top: 100px;
+	
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -189,7 +189,7 @@ color: #3b94d1;
 }
 .des h1{
 		overflow-y: hidden;
-	margin-top: 10%;
+	margin-top: 20%;
 }
 .des p{
 	font-size: 100%;
